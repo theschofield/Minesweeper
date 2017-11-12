@@ -27,7 +27,6 @@ const generateBombBoard = (numberOfRows, numberOfColumns, numberOfBombs) => {
       board[randomRowIndex][randomColumnIndex] = "B";
       numberOfBombsPlaced++;
     }
-    // The code in your while loop has the potential to place bombs on top of already existing bombs. This will be fixed when you learn about control flow.
   }
   return board;
 };
